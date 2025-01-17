@@ -11,7 +11,7 @@ export class EducationComponent {
   educationList: Education[] = [
    
     {
-      institute: 'Dalhouse University',
+      institute: 'Dalhousie University',
       degree: 'Masters of Applied Computer Science',
       duration: 'May 2022 - Aug 2023',
       courses:'Serverless Computing, Advanced Software Development, Data Management,Cloud Computing, Web Development'
