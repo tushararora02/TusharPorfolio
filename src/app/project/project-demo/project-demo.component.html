@@ -1,0 +1,12 @@
+<section>
+    <h2>Project Demo</h2>
+    <br/>
+        <div  class="list" *ngFor="let demo of projectDemo" >
+            <span class="tile">
+                <br/>
+                <button [style]="'font-size:1.5rem;'" (click)="openLink(demo.url)">View<img style="margin-bottom:5% ;" [src]=getImageurl(demo.image) alt=""></button>
+                <br/><br/>   
+                <span [style]="' color: white;  font-size:1.5rem; margin-left:4%; width:110%'">{{demo.title}}</span><br/>
+            </span>
+        </div>
+</section>

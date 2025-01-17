@@ -1,0 +1,24 @@
+<div class="container">
+    <h1 class="title">
+        <span>Introduction</span>
+    </h1>
+    <section>
+        <p *ngFor="let sentence of aboutMe">
+            {{sentence}}
+        </p>
+    </section>
+    
+</div>
+<br/>
+<app-education/>
+<br/>
+<br/>
+<h1 class="title">Technicall Skills</h1>
+<app-technical-skill [skillName]="'Programing Skills'" [technical_skills]="programming_language"></app-technical-skill>
+<app-technical-skill [skillName]="'Web Technologies'" [technical_skills]="web_technologies"></app-technical-skill>
+<app-technical-skill [skillName]="'Database Systems'" [technical_skills]="database"></app-technical-skill>
+<app-technical-skill [skillName]="'Cloud Technologies'" [technical_skills]="cloud_technologies"></app-technical-skill>
+<app-technical-skill [skillName]="'Monitoring Tools'" [technical_skills]="monitoring_tools"></app-technical-skill>
+<app-technical-skill [skillName]="'Other Technologies'" [technical_skills]="other_technologies"></app-technical-skill>
+
+<br/>

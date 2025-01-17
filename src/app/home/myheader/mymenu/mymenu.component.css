@@ -1,0 +1,19 @@
+.menuListItem{
+    margin: 1rem;
+    cursor: pointer;    
+}
+.menuListItem:hover{
+    color: rgb(154, 200, 177);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    font-weight: bold;
+    color: rgb(154, 200, 177);;
+  }

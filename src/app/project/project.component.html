@@ -1,0 +1,15 @@
+<div class="container">
+    <h1 class="title">Projects</h1>
+    <ul>
+        <li *ngFor="let project of projects">
+            <h2>{{project.title}}</h2>
+            <br/>
+            <h3>{{project.technologiesused}}</h3>
+            <br/>
+            <ul *ngFor="let desc of project.description">
+                <li>{{desc}}</li>
+            </ul>
+        </li>
+    </ul>
+    <app-project-demo/>
+</div>

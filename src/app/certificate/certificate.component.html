@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="title">Certifications</h1>
+    <ul>
+        <li *ngFor="let certified of certificatesList">
+            <h2>{{certified.title}}</h2>
+        <br/>
+            <ul>
+                <li *ngFor="let desc of certified.description"><h3>{{desc}}</h3><br/></li>
+            </ul>
+        </li>
+    </ul>
+    <section>
+        <h2 style="margin-left: 4%;">List of Certifications </h2>
+        <br/>
+            <div  class="list" *ngFor="let certificate of certificates" >
+                <span class="tile">
+                    <br/>
+                    <button [style]="'font-size:1.5rem;'" (click)="openLink(certificate.url)">View<img style="margin-bottom:5% ;" [src]=getImageurl(certificate.image) alt=""></button>
+                    <br/><br/>   
+                    <span [style]="' color: white;  font-size:1.5rem; margin-left:4%; width:110%'">{{certificate.title}}</span><br/>
+                    <br/>
+                </span>
+            </div>
+    </section>
+</div>

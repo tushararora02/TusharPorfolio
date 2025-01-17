@@ -1,0 +1,10 @@
+<section>
+    <h2>{{skillName}}</h2>
+    <br/>
+        <div  class="list" *ngFor="let skill of technical_skills" >
+            <span class="tile">
+                <img style="margin-bottom:5% ;" [src]=getImageurl(skill.image) alt=""><br/>
+                <span [style]="' color: white;  font-size:1.5rem;'">{{skill.name}}</span>
+            </span>
+        </div>
+</section>

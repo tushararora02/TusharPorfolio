@@ -1,0 +1,42 @@
+.title{
+    color:rgb(154, 200, 177);
+    letter-spacing: 4px;
+    text-shadow: 10px 8px 10px var(--black);
+    font-weight: bold;
+}
+
+section {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+section h2 {
+    color:rgb(122, 147, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section h4 {
+    color: rgb(136, 142, 136);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:host.pc section {
+    width: 600px;
+    position: relative;
+    margin-left: 5rem;
+    display: grid;
+    gap: 0 1.5rem;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+:host.pc section h4:nth-child(4) {
+    grid-row: 1/4;
+    margin-top: 0%;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+}
