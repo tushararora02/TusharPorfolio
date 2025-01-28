@@ -9,11 +9,11 @@ import { ProjectDemo } from 'src/app/model/models';
 export class ProjectDemoComponent {
   projectDemo: ProjectDemo[] = [
     {
-      title: 'OpenAICodeGenerator',
+      title: 'OpenAI Code Generator',
       image:'folder.png',
       url:"https://github.com/tushararora02/OpenAICodeGenerator"
     },{
-      title: 'ExtractIngrediantFromImage',
+      title: 'Extract Ingrediant From Image',
       image:'folder.png',
       url:"https://github.com/tushararora02/ExtractIngrediantFromImage"
     },
