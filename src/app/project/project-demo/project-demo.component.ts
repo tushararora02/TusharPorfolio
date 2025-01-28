@@ -9,6 +9,15 @@ import { ProjectDemo } from 'src/app/model/models';
 export class ProjectDemoComponent {
   projectDemo: ProjectDemo[] = [
     {
+      title: 'OpenAICodeGenerator',
+      image:'folder.png',
+      url:"https://github.com/tushararora02/OpenAICodeGenerator"
+    },{
+      title: 'ExtractIngrediantFromImage',
+      image:'folder.png',
+      url:"https://github.com/tushararora02/ExtractIngrediantFromImage"
+    },
+    {
       title: 'Springboot Email Scheduler',
       image:'folder.png',
       url:"https://github.com/tushararora02/Spring_Boot_Email_Scheduler"
